@@ -84,6 +84,9 @@ body {
 .even-roll[data-roll="6"] {
   transform: rotateX(360deg) rotateY(900deg) rotateZ(360deg);
 }
+
+
+
 .odd-roll[data-roll="1"] {
   transform: rotateX(-360deg) rotateY(-720deg) rotateZ(-360deg);
 }
@@ -120,6 +123,29 @@ body {
 [data-side="6"] {
   transform: rotate3d(1, 0, 0, 180deg) translateZ(4rem);
 }
+
+
+
+/* [data-side="7"] {
+  transform: rotate3d(0, 0, 0, 90deg) translateZ(4rem);
+}
+[data-side="8"] {
+  transform: rotate3d(-1, 0, 0, 90deg) translateZ(4rem);
+}
+[data-side="9"] {
+  transform: rotate3d(0, 1, 0, 90deg) translateZ(4rem);
+}
+[data-side="10"] {
+  transform: rotate3d(0, -1, 0, 90deg) translateZ(4rem);
+}
+[data-side="11"] {
+  transform: rotate3d(1, 0, 0, 90deg) translateZ(4rem);
+}
+[data-side="12"] {
+  transform: rotate3d(1, 0, 0, 180deg) translateZ(4rem);
+} */
+
+
 [data-side="1"] .dot:nth-of-type(1) {
   grid-area: five;
 }
