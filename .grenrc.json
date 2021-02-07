@@ -1,5 +1,5 @@
 {
-    "dataSource": "commits",
+    "dataSource": "CHANGELOG.md",
     "prefix": "v",
     "includeMessages": "merges",
     "changelogFilename": "CHANGELOG.md"
