@@ -1,4 +1,5 @@
 {
+    "dataSource": "milestones",
     "prefix": "v",
     "includeMessages": "merges",
     "changelogFilename": "CHANGELOG.md"
